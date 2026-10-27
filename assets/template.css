@@ -1,0 +1,473 @@
+
+body,td,th {
+    font-family: 'Avenir';
+    font-size: 16px;
+    color: black;
+    overflow-x: hidden;
+}
+
+:root {
+    --epsilon-shape: "Ɛ";
+    --three-shape: "3";
+}
+
+.shape-epsilon {
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+
+.shape-three {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.canvas {
+    border: 1px solid black;
+}
+
+.tooltip {
+    font-family: 'Avenir';
+    position: absolute;
+    white-space: nowrap;
+    display: block;
+    font-size: small;
+    background: #ffffcc;
+    border: 1px solid black;
+    padding: 3px;
+    z-index: 1000;
+    color: black;
+    visibility: hidden;
+}
+
+.table-like {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: black
+  }
+
+div.video-caption {
+    display: inline-block;
+    text-align: center;
+    width: 322px;
+    padding: 0px;
+    margin: 0px;
+    color: black
+}
+
+div.author {
+    font-size: 22px;
+    font-weight: 500;
+    justify-content: center;
+    width: 206px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #4169E1;
+}
+div.affiliation {
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+    color: black
+}
+div.mono-affiliation {
+    font-weight: 500;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: black
+}
+
+figcaption.video-caption {
+    width: 975px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    color: black
+}
+
+video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+}
+
+video {
+    width: 100%;
+    max-width: 975px !important;
+}
+
+span.highlight {
+    /* color: red; */
+    color: rgb(111, 19, 130);
+    font-weight: bold;
+}
+
+ul, ol {
+    display: table;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 22;
+}
+
+.instructions {
+    display: inline-block;
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.instructions p {
+    width: 500px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0px;
+    color: blue;
+    font-size: large;
+}
+
+.cover-spin {
+    position: fixed;
+    width: 100%;
+    left:0; right:0; top:0; bottom:0;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 9999;
+    display: block;
+}
+
+a.foxglove {
+    font-size: 22px;
+    color:#6f3be8;
+    text-decoration: none
+}
+
+a.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(215, 215, 215) !important;
+}
+a.nav-link:hover {
+    /* https://xmple.com/color/4369dd/ */
+    /* color: orange !important; */
+    color: red !important;
+}
+a.nav-link.active {
+    /* color: red !important; */
+    color: rgb(246, 169, 1) !important;
+}
+
+.navbar {
+    min-height: 35px;
+    max-height: 35px;
+    height: 35px;
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+.container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 975px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+section {
+    position: relative;
+    padding-top: 22px;
+    padding-bottom: 30px;
+}
+
+section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 100%;
+    max-width: 1100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0)); /* Tapered effect */
+}
+
+section .container {
+    width: 100%;
+    max-width: 975px !important;
+    margin: 0 auto;
+}
+
+section .container.is-max-desktop {
+    max-width: 975px !important;
+    margin: 0 auto;
+}
+
+section.is-light {
+    background-color: rgb(255, 255, 255, 1);
+}
+
+section.is-dark {
+    background-color: rgb(235, 235, 235, 1);
+}
+
+section.is-colorful {
+    background-color: rgb(235, 235, 235, 1);
+    /* background: linear-gradient(135deg, rgb(255, 0, 0, 0.2), rgb(65, 105, 225, 0.1), rgb(255, 0, 0, 0.05), rgb(65, 105, 225, 0.4)); */
+    background: linear-gradient(135deg, rgb(111, 19, 130, 0.25), rgb(246, 169, 1, 0.1), rgb(111, 19, 130, 0.08), rgb(246, 169, 1, 0.35));
+}
+
+p.inner-text {
+    width: 100%;
+    max-width: 975px;
+    font-size: 17px;
+    text-align: center;
+}
+p.inner-text.left {
+    text-align: left;
+}
+
+.medium-bold {
+    font-weight: 500;
+}
+
+/* https://stackoverflow.com/a/13555927 */
+.nav-anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -38px;
+    left: 0;
+    visibility: hidden;
+}
+
+div.bibtex {
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+pre {
+    width: auto;
+    overflow-x: auto;
+    border: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+iframe.code-box {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+}
+
+/* For gradient in the title */
+/* Note: the original "red" was replaced to ICRA purple: "rgb(111, 19, 130)", and blue to ICRA gold: "rgb(246, 169, 1)" */
+.main-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    /* margin-right: 10px; */
+    /* font-style: italic; */
+    background: linear-gradient(45deg, rgb(155, 63, 176), rgb(246, 169, 1), rgb(111, 19, 130), rgb(246, 169, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradient-shift 5s ease infinite;
+}
+
+.colorful-text {
+    background: linear-gradient(45deg, rgb(111, 19, 130), rgb(246, 169, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 5s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+button.nav-button {
+    border-width: 2px;
+    border-color: black;
+}
+button.nav-button.is-focused {
+    color: black;
+    background-color: #4169e113;
+    border-color: #4169E1;
+    /* background-color: #4169e113; */
+}
+
+.back-to-top-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    /* font-weight: bold; */
+    font-size: 16px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.back-to-top-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+
+/* From https://ziyc.github.io/omnire/ */
+.highlighted-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.highlighted-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+.highlighted-link .icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+.colab-link {
+    background: linear-gradient(45deg, #2196F3, rgb(111, 19, 130));
+}
+.arxiv-link {
+    background: linear-gradient(45deg, #FFB74D, #FFA726);
+}
+.pulse {
+    animation: pulse 1.0s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(33, 150, 243, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(33, 150, 243, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(33, 150, 243, 0);
+    }
+}
+
+figcaption.carousel-image-caption {
+    font-size: 19px;
+    margin: 0 auto;
+}
+
+figcaption.carousel-text-caption {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    max-width: 900px;
+    height: 78px;
+    align-self: center;
+    align-content: center;
+}
+
+
+/* Custom CSS for Bulma Carousel */
+div.slider-pagination {
+    margin-bottom: 3px;
+}
+div.slider-navigation-next {
+    margin-top: 0px;
+    border: 1px solid gray;
+}
+div.slider-navigation-previous {
+    margin-top: 0px;
+    border: 1px solid gray;
+}
+
+/* Different offsets for land videos */
+div.land-videos-carousel .slider-pagination {
+    margin-bottom: 138px;
+}
+div.land-videos-carousel .slider-navigation-next {
+    margin-top: -70px !important;
+    border: 1px solid gray;
+}
+div.land-videos-carousel .slider-navigation-previous {
+    margin-top: -70px !important;
+    border: 1px solid gray;
+}
+
+/* Different offsets for underwater results */
+div.underwater-results-carousel .slider-pagination {
+    margin-bottom: 152px;
+}
+div.underwater-results-carousel .slider-navigation-next {
+    margin-top: -75px !important;
+    border: 1px solid gray;
+}
+div.underwater-results-carousel .slider-navigation-previous {
+    margin-top: -75px !important;
+    border: 1px solid gray;
+}
+
+/* Correlation table */
+.corr-table {
+    width: 100%;
+    max-width: 760px;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: 0 auto;
+    background: white;
+}
+.corr-table th, .corr-table td {
+    padding: 8px 14px;
+}
+.corr-table thead tr {
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+}
+.corr-table tbody tr:last-child {
+    border-bottom: 2.5px solid black;
+}
+.corr-table .task-sep {
+    border-bottom: 2.5px solid black;
+}
+.corr-table .border-left  { border-left:  2.5px solid black; }
+.corr-table .border-right { border-right: 2.5px solid black; }
+

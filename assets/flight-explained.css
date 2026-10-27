@@ -1,0 +1,24 @@
+.flight-explained-player{width:100%;margin-top:14px}.flight-explained-player video{display:block;width:100%;aspect-ratio:16/9;border:1px solid #dfd5e4;border-radius:10px;background:#faf9fc}.flight-case-tabs button{font-size:15px}.flight-originals{width:100%;margin:14px 0 20px}.flight-originals .flight-video-grid{margin-top:18px}.flight-case-tabs{display:grid;grid-template-columns:repeat(4,1fr)}
+@media(max-width:640px){.flight-case-tabs{grid-template-columns:repeat(2,1fr)}.flight-case-tabs button{font-size:13px}}
+.flight-chapters{grid-template-columns:repeat(2,1fr)}
+.flight-chapters button:disabled{cursor:default;opacity:.55}
+.flight-comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px;width:100%;margin-top:22px;align-items:start;text-align:left}
+.flight-comparison article{min-width:0}
+.flight-comparison h3{font-size:21px;font-weight:700;color:#6f1382;margin:0 0 12px}
+.flight-camera-panel>video{display:block;width:100%;aspect-ratio:16/9;border:1px solid #dfd5e4;border-radius:10px;background:#faf9fc}
+.flight-comparison .flight-explained-player{margin-top:0}
+.flight-comparison .flight-explained-player video{aspect-ratio:1/1}
+.flight-clock-note{font-size:13px;line-height:1.5;color:#67616d;margin:9px 0 14px}
+.flight-protocol{background:#f7f3f9;border:1px solid #e4d9e9;border-radius:10px;padding:18px}
+.flight-protocol h4{font-size:18px;font-weight:700;margin:0 0 14px;color:#38253f}
+.flight-protocol ol{margin:0;padding-left:22px}
+.flight-protocol li{margin-bottom:12px;padding-left:3px;font-size:15px;color:#791a8d}
+.flight-protocol li:last-child{margin-bottom:0}
+.flight-protocol strong,.flight-protocol span{display:block}
+.flight-protocol span{color:#555;font-size:14px;line-height:1.5;margin-top:3px}
+.flight-log-events{display:flex;gap:8px;margin-top:11px}
+.flight-log-events button{flex:1;border:1px solid #d9cbe0;background:#fff;color:#6f1382;font-family:inherit;font-size:14px;font-weight:600;border-radius:7px;padding:9px 6px;cursor:pointer}
+.flight-log-events button:hover{background:#f4eaf7}
+.flight-log-events button:disabled{opacity:.55;cursor:default}
+.flight-log-events button:focus-visible{outline:3px solid #ce9bdd;outline-offset:3px}
+@media(max-width:700px){.flight-comparison{grid-template-columns:1fr}.flight-protocol{padding:14px}.flight-comparison h3{font-size:19px}}

@@ -1,0 +1,7 @@
+/* Paper-specific content adaptations; reference layout and fonts retained. */
+.hero-title .main-title{display:inline-block;margin-top:16px;font-size:2.5rem}
+.hero-title h1{line-height:1.16}.project-mark{width:650px}.project-mark small{font-size:12px}
+.paper-figure a{display:block}.paper-figure img{cursor:zoom-in}
+.body-text{line-height:1.6}.table-scroll:focus-visible{outline:2px solid #6f1382}
+footer .back-to-top-button{margin:0 0 0 12px}
+@media(max-width:640px){.hero-title .main-title{font-size:29px}.project-mark small{font-size:11px;line-height:1.5}.hero-title h1{font-size:26px}.manuscript-status{min-height:130px}.project-mark{height:auto}.publication-links{flex-wrap:wrap;gap:8px}.body-text,.paper-figure figcaption{text-align:left}.timing-breakdown strong{font-size:28px}footer .back-to-top-button{margin:12px}}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Light-07.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-LightOblique-08.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Book-01.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-BookOblique-02.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Medium-09.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-MediumOblique-10.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Heavy-05.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-HeavyOblique-06.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Black-03.woff') format('woff');
+    font-weight: 1000;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-BlackOblique-04.woff') format('woff');
+    font-weight: 1000;
+    font-style: italic;
+}

@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+Physical recordings show continuation and return under different fault conditions. The clips are independent.
+
+00:00:10.000 --> 00:00:22.000
+Memory enriches the observed-state posterior. A shared-parameter reference posterior trains the same prior without the current retrieval residual.
+
+00:00:22.000 --> 00:00:38.000
+Matched experiments show 19.17% lower position reconstruction error. Adding the reference target reduces 15-step prediction error from 0.2585 to 0.2227 meters.
+
+00:00:38.000 --> 00:00:50.000
+These recorded simulation branches show how candidate modes produce different motion and task consequences. They are not predicted trajectories.
+
+00:00:50.000 --> 00:01:02.000
+The contribution is improved fault-conditioned prediction. Downstream cases expose task-retention and maneuver trade-offs and demonstrate deployed appraisal.
